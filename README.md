@@ -14,6 +14,13 @@ Also I added / improved some of the scripts
  
 [  ]  One TODO if you have a P700 - Thje printer has some kind of Lite mode. The left button that says `P lite` needs to be switched off.
 
+Beforehand you have to install the linux driver, which is available here: https://github.com/philpem/printer-driver-ptouch
+(I already put this into install.sh ... which already clones the repo for you into your home direcotry ~/printer-driver-ptouch/ )
+
+So to get startet first `./bootstrap.sh` then `./build.sh` (now you can already use the binary in bin/ptouch-print) and (optional) `./install.sh` to make  `ptouch-print` present within the users paths. 
+
+
+
 These are my notes on how to use a Brother P-touch D450 ([PT-D450])
 from Linux, which is connected via USB.  They are written around the
 **[ptouch-print]** command-line tool for communicating with the label
