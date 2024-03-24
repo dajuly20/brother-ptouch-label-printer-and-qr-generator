@@ -5,7 +5,7 @@ _NOTE: These are my notes on how to use the `ptouch-print` tool. I am
 (<https://git.familie-radermacher.ch/linux/ptouch-print.git>) /Henrik
 2023-10-16_
 
-_NOTE: I (dajuly20) forked https://github.com/HenrikBengtsson/brother-ptouch-label-printer-on-linux
+NOTE: I (@dajuly20) forked https://github.com/HenrikBengtsson/brother-ptouch-label-printer-on-linux
 and combined the writing and lua scripts with the original files metioned in @HendrikBengtsson 's note above.
 Also I added / improved some of the scripts
 * `install.sh` - Links ptouch-print into /usr/bin/ so it can be used system wide
