@@ -5,6 +5,14 @@ _NOTE: These are my notes on how to use the `ptouch-print` tool. I am
 (<https://git.familie-radermacher.ch/linux/ptouch-print.git>) /Henrik
 2023-10-16_
 
+_NOTE: I (dajuly20) forked https://github.com/HenrikBengtsson/brother-ptouch-label-printer-on-linux
+and combined the writing and lua scripts with the original files metioned in @HendrikBengtsson 's note above.
+Also I added / improved some of the scripts
+* `install.sh` - Links ptouch-print into /usr/bin/ so it can be used system wide
+* `bootstrap.sh` - Puts the Install-List from the readme into a script
+* `print-qrcode.sh` - Uses API to create what ever was passed into a QR Code with the maximum printable size of 128x128 px
+ 
+[  ]  One TODO if you have a P700 - Thje printer has some kind of Lite mode. The left button that says `P lite` needs to be switched off.
 
 These are my notes on how to use a Brother P-touch D450 ([PT-D450])
 from Linux, which is connected via USB.  They are written around the
